@@ -1,0 +1,49 @@
+{
+  "appPageId" : "69609973-08c8-48ef-885d-9dd2d6d52939",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "4e513db0-5a8b-44b3-a97d-b36a76089b06",
+  "label" : "Report changes",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>       <span style=\"color: #2D2D2D;font-size: 21px;\">Report a Change of Circumstances</span>      </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">Update your information to get the right amount of benefits.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "cc828ac2-d3c1-434e-87c8-0458ece33ae3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4b2582fe-c76c-4323-aebf-18e8b9680953",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "English",
+        "subType" : "ReportChangeOfCircumstances",
+        "theme" : "lightning",
+        "type" : "ChangeOfCircumstances"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "d2a39ed1-a1c1-4c64-8d5b-2294e2eed2fe",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "74048b2e-c166-4701-9bd2-1d920fdfbf4d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "987189e5-a054-4704-84ba-283c45f78d02",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "report-changes"
+}

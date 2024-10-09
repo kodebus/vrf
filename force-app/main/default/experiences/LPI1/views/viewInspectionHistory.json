@@ -1,0 +1,41 @@
+{
+  "appPageId" : "8d4c20ac-12b6-49d1-b651-93acadd90621",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "6f50ac13-e435-496c-8821-f20914326aef",
+  "label" : "View Inspection History",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>    <span style=\"color: #2D2D2D;font-size: 21px;\">View Inspection History</span>   </h1><div class=\"slds-text-body_regular slds-m-top_small slds-p-bottom-small\">See your inspection history along with detailed records for each inspection. Records with an actual time appear first, followed by records with a planned time.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "38ac36c9-ae13-4c61-8e4a-d517f9ab168a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b672ee89-66e4-494f-b2fa-802e60ea0a6d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "runtime_industries_publicsector:viewInspectionHistoryContainer",
+      "id" : "395cfa74-c9d3-44be-9a36-fa25cc57cf8b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "16d6b059-b0fc-43d9-9f74-da2643f54683",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "8697ae00-1131-4677-ae46-0ded72f419c0",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "inspections"
+}

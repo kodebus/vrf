@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "58848240-fde3-4679-ab14-d32b5dea32f8",
+  "appPageId" : "69609973-08c8-48ef-885d-9dd2d6d52939",
+  "configurationTags" : [ ],
+  "id" : "a9618d5e-32f2-4eb5-b379-bdc8a46fe374",
+  "label" : "Benefits",
+  "pageAccess" : "UseParent",
+  "routeType" : "bm-benefits",
+  "type" : "route",
+  "urlPrefix" : "benefits"
+}

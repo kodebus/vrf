@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "5df32b16-2709-45a0-8b69-e3d6e403566d",
+  "appPageId" : "7a5517cc-055d-497c-95f2-c8bf9fd704ba",
+  "configurationTags" : [ ],
+  "id" : "b04c050d-a7ba-4f93-93ef-3a98d9a70851",
+  "label" : "Funding Award Requirement Section Related List",
+  "routeType" : "relatedlist-1EK",
+  "type" : "route",
+  "urlPrefix" : "fundingawardrqmtsection"
+}

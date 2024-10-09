@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "d62fc765-41ec-40b9-9899-fb592a7a3cfe",
+  "appPageId" : "814ca7f7-6562-4a2d-9de6-f81ba9199775",
+  "configurationTags" : [ ],
+  "id" : "c57ad769-9346-49e7-a490-ffd4938af388",
+  "label" : "Respond to Claim",
+  "pageAccess" : "UseParent",
+  "routeType" : "respond-to-claim",
+  "type" : "route",
+  "urlPrefix" : "respond-to-claim"
+}

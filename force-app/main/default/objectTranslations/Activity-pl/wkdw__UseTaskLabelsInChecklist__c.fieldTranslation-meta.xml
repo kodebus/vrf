@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Na liście kontrolnej rekrutacji z zadaniami wyświetlaj nazwę i opis rekordu zadania zamiast nazwy i opisu rekordu zadania rekrutacji.</help>
+    <label><!-- Use Task Labels in Onboarding Checklist --></label>
+    <name>wkdw__UseTaskLabelsInChecklist__c</name>
+</CustomFieldTranslation>

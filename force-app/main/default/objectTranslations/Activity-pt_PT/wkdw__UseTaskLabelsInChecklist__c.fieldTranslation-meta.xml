@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Na lista de verificação de integração de tarefas é exibido o nome e a descrição definidos no registo de tarefa em vez do nome e a descrição definidos no registo da tarefa de integração.</help>
+    <label><!-- Use Task Labels in Onboarding Checklist --></label>
+    <name>wkdw__UseTaskLabelsInChecklist__c</name>
+</CustomFieldTranslation>

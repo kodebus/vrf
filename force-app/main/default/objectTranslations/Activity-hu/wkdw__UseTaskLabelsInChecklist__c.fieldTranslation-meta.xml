@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>A feladatok onboarding-ellenőrzőlistájában a feladatrekordban beállított név és leírás megjelenítése az onboardingfeladat-rekordban beállított név és leírás helyett.</help>
+    <label><!-- Use Task Labels in Onboarding Checklist --></label>
+    <name>wkdw__UseTaskLabelsInChecklist__c</name>
+</CustomFieldTranslation>

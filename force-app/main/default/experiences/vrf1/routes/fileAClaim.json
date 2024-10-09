@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "ab942d53-23a0-4ce5-b335-ca28041211b0",
+  "appPageId" : "814ca7f7-6562-4a2d-9de6-f81ba9199775",
+  "configurationTags" : [ ],
+  "id" : "d0f872b4-a45e-440f-abc1-82bafef7b3c1",
+  "label" : "File a Claim",
+  "pageAccess" : "Public",
+  "routeType" : "file-a-claim",
+  "type" : "route",
+  "urlPrefix" : "claims/file-claim"
+}

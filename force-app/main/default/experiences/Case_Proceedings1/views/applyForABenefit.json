@@ -1,0 +1,49 @@
+{
+  "appPageId" : "69609973-08c8-48ef-885d-9dd2d6d52939",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "19837941-d4ff-4485-b074-f9583d714210",
+  "label" : "Apply for a Benefit",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>       <span style=\"color: #2D2D2D;font-size: 21px;\">Apply for a Benefit</span>      </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">Complete your application for a benefit.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "273298e1-52ff-4b65-8bac-597847eb94b6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5ee33381-0b8c-4825-9de6-bc12b97b6964",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "English",
+        "subType" : "BenefitApplicantAssessment",
+        "theme" : "lightning",
+        "type" : "BenefitManagement"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "c19b3c69-bf72-4f1e-bf77-05ee8aef4411",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a260a307-1613-45db-9ce4-2ce58a517f7f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "c28af8ed-5f79-4f13-bc8d-d06972a96af9",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "apply-for-benefit"
+}

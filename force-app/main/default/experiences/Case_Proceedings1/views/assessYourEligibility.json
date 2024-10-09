@@ -1,0 +1,49 @@
+{
+  "appPageId" : "69609973-08c8-48ef-885d-9dd2d6d52939",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "221b94ba-57cc-4078-97b0-41abf9da5e57",
+  "label" : "Assess Your Eligibility",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>       <span style=\"color: #2D2D2D;font-size: 21px;\">Benefits Eligibility Assessment</span>      </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">Complete the assessment to see what benefit programs you are eligible for.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "5299fc83-16c8-4d00-a128-98f4a3ade387",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "81ffd14e-61cd-4322-9365-b8491feb2a28",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "English",
+        "subType" : "AssessEligibility",
+        "theme" : "lightning",
+        "type" : "BenefitAssistance"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "62f719e3-f9be-4d28-b30e-51134ab5d40c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5817abeb-bb40-4e7a-bc68-9cb4cc44475c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "eac7e604-9663-40d0-a192-3b7f459ed146",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "benefit-finder"
+}

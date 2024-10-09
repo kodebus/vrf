@@ -1,0 +1,39 @@
+{
+  "appPageId" : "69609973-08c8-48ef-885d-9dd2d6d52939",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "0d48cd33-4ae5-4bd9-8e51-0be6eb324b3c",
+  "label" : "Care Plan Related List",
+  "regions" : [ {
+    "id" : "d71af58f-a7f5-46db-b910-91bc973d10ce",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "0240ec7f-236c-4651-9f05-b75ac6c441af",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1e2cc948-8b5b-4fbe-a2cb-4cacfacb3a08",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "648f77ee-4868-4b5a-b62c-14b6c1f4de52",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-1sp"
+}

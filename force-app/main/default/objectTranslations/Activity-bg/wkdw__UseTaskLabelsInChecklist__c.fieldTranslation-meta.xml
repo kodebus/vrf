@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>В списъка с отметки със задачи за регистриране – показване на името и описанието, зададени в записа на задачата, вместо зададените в записа на задачата за регистриране.</help>
+    <label><!-- Use Task Labels in Onboarding Checklist --></label>
+    <name>wkdw__UseTaskLabelsInChecklist__c</name>
+</CustomFieldTranslation>

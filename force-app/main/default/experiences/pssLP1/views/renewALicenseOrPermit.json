@@ -1,0 +1,33 @@
+{
+  "appPageId" : "09459f47-ad3c-49dc-8151-17419baf0c1a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "8704ddc7-8a9e-47c2-bdfb-27cd26dd9351",
+  "label" : "Renew a License or Permit",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>    <span style=\"color: #2D2D2D;font-size: 21px;\">Renew a License or a Permit</span>   </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">Fill out a license or a permit renewal application. You can save a draft application and complete it later.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "a8e0cd6c-f655-4e87-89ce-6196487378fe",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f60958b3-d28f-4d44-8440-5562abce188a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "65dba580-7203-4d39-b2a8-b0ffa9d766c1",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "c90ffca8-844e-4978-9e6e-49d222d9bef5",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "renew-license-permit"
+}

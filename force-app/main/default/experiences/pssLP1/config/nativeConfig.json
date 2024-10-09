@@ -1,0 +1,24 @@
+{
+  "id" : "21c90bed-6d70-4ee7-baa0-6e972ce77bd0",
+  "nativeMobileNavConfig" : {
+    "showBackButton" : true,
+    "showHamburgerMenuWithBackButton" : false
+  },
+  "nativeTabMenu" : {
+    "branding" : {
+      "iconTintColorUnselected" : "#C9C5C5",
+      "barTintColor" : "#FFFFFF"
+    },
+    "menuItems" : [ {
+      "name" : "Home",
+      "targetUrl" : "/",
+      "iconAsset" : "slds-icon:home"
+    }, {
+      "name" : "Settings",
+      "targetUrl" : "/settings/home",
+      "iconAsset" : "slds-icon:user"
+    } ]
+  },
+  "showHamburgerMenu" : true,
+  "type" : "nativeConfig"
+}

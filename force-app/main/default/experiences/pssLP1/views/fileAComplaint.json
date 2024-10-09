@@ -1,0 +1,48 @@
+{
+  "appPageId" : "09459f47-ad3c-49dc-8151-17419baf0c1a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "17984e6f-33bf-41b5-a25a-7012cf3016b3",
+  "label" : "File a Complaint",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>    <span style=\"color: #2D2D2D;font-size: 21px;\">File a Complaint</span>   </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">File a complaint against a business. You can identify yourself or file anonymously.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "41d03afe-d0a5-4401-aac6-7c3a6991aa0a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cd6c42da-07eb-4cd4-9a57-59ec24fa482a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "2183fd90-e17e-4a15-b350-e09b486cd208",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "41c8cf44-7d4d-4022-ac41-ee0aa217f6cf",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "File a Complaint"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2eaedafc-bf3f-4cf5-9cc9-d1f4b0995c60",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c6f3fe36-4dab-42ea-92d1-84b3964cc1a5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "report-a-business"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "3d722bdd-8d38-4e86-bd01-ad289e99882d",
+  "appPageId" : "814ca7f7-6562-4a2d-9de6-f81ba9199775",
+  "configurationTags" : [ ],
+  "id" : "23054afe-a1ee-4a73-a988-fa7a880989c7",
+  "label" : "Applications",
+  "pageAccess" : "UseParent",
+  "routeType" : "bm-applications",
+  "type" : "route",
+  "urlPrefix" : "applications"
+}

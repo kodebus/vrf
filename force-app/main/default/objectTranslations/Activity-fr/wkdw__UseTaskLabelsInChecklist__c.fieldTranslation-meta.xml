@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Dans la liste de contrôle des tâches d&apos;intégration, affichez le nom et la description définis dans l&apos;enregistrement d&apos;une tâche au lieu du nom et de la description définis dans l&apos;enregistrement de la tâche d&apos;intégration.</help>
+    <label><!-- Use Task Labels in Onboarding Checklist --></label>
+    <name>wkdw__UseTaskLabelsInChecklist__c</name>
+</CustomFieldTranslation>

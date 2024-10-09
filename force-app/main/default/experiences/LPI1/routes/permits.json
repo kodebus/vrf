@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "0bd89478-146f-4188-8f20-b83ce6281e38",
+  "appPageId" : "8d4c20ac-12b6-49d1-b651-93acadd90621",
+  "configurationTags" : [ ],
+  "id" : "3d7b383f-900c-486b-b50b-4f23545058eb",
+  "label" : "Permits",
+  "pageAccess" : "UseParent",
+  "routeType" : "show-permit-dependency",
+  "type" : "route",
+  "urlPrefix" : "show-permit-dependency"
+}

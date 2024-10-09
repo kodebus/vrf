@@ -1,0 +1,85 @@
+{
+  "appPageId" : "814ca7f7-6562-4a2d-9de6-f81ba9199775",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "1330e47e-e424-4c76-bb1e-c02de7972a4f",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<table>\n    <tr>\n        <td> If you, or someone you know, might be eligible, you should register with the VRF. \n            <br>Registration preserves your right to file a claim in the future and waives no legal rights. \n    <br>You do not have to be sick to register. </td>\n        <td>\n        \t<img   src = \"{/cms/images/MCLRFXJ4AOERGV3JSDOU6BXMFQJE} \" /> \n            \n        </td>\n        \n    </tr>\n</table>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "0bc2e451-3754-475a-b8e3-4f11586b4aa9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p><span style=\"background-color: rgb(255, 255, 255); font-size: 22px;\">If you, or someone you know, might be eligible, you should register with the VRF.&nbsp;</span></p>\n<p><span style=\"background-color: rgb(255, 255, 255); font-size: 22px;\">Registration preserves your right to file a claim in the future and waives no legal rights.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><strong style=\"font-size: 22px;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.New_Claim1.1}\" style=\"width: 152.805px; height: 152.805px;\"></strong></p>\n<p><strong style=\"background-color: rgb(255, 255, 255); font-size: 22px;\">You do not have to be sick to register.</strong></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "8ebb4e6a-88f9-4a2e-b2a5-05120ba36eb8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "flexcardName" : "BenefitAssistanceTileDisplay",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "cf5c7f5f-a082-4f1f-ad61-178b30eb9ef6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "aea52b63-ff17-4f27-a55c-ba7cb1439279",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "maxWidth" : 100,
+        "overlayColor" : "rgba(0,0,0,0.6)",
+        "overlayHoverColor" : "",
+        "radius" : 0,
+        "showTitle" : false,
+        "textAlignment" : "center",
+        "textBgColor" : "rgba(0,0,0,0)",
+        "textBgHoverColor" : "rgba(0,0,0,0)",
+        "textColor" : "",
+        "textHoverColor" : "",
+        "textPosition" : "center center",
+        "title" : "Featured Topics"
+      },
+      "componentName" : "forceTopic:featuredTopics",
+      "id" : "06a9aa6e-3e59-4ae8-925e-ef142c8d80f3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b49e7f15-a040-4890-b39d-e2f3c4fddea3",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b0fc0bd2-d461-42ee-86b8-1ee97914de61",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "09fb0ab2-3926-4509-bd03-dd4b4491491c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

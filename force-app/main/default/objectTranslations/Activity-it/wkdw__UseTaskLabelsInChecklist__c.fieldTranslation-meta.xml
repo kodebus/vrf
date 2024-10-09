@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nell&apos;elenco di controllo dell&apos;orientamento delle operazioni, mostra il nome e la descrizione impostati sul record operazione anziché il nome e la descrizione impostati sul record operazione di orientamento.</help>
+    <label><!-- Use Task Labels in Onboarding Checklist --></label>
+    <name>wkdw__UseTaskLabelsInChecklist__c</name>
+</CustomFieldTranslation>

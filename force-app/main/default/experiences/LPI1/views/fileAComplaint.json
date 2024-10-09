@@ -1,0 +1,64 @@
+{
+  "appPageId" : "8d4c20ac-12b6-49d1-b651-93acadd90621",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "b4c9ab86-a387-4429-8a8c-58ee0ceb3d2c",
+  "label" : "File a Complaint",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>    <span style=\"color: #2D2D2D;font-size: 21px;\">File a Complaint</span>   </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">File a complaint against a business. You can identify yourself or file anonymously.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "80bd0fc8-b896-4094-8f94-cd045f4eaa83",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "32780807-97dd-4ed6-9b7b-3c9ee6f79136",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "dir" : "ltr",
+        "flexipageRegionWidth" : "LARGE",
+        "inline" : false,
+        "inlineLabel" : "Launch undefined/undefined",
+        "inlineVariant" : "brand",
+        "layout" : "lightning",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:licensingAndPermittingPublicComplaintEnglish",
+      "id" : "9d092a60-f298-4909-abba-e82d38aeb885",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b415860b-52e2-465a-aee2-65220aafe54c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "8a009af8-0867-47e7-9905-26a194291c45",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "File a Complaint"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3817970c-e6d9-41cc-83e1-8e7f2dcbf476",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "926341b1-2e7b-4f57-92af-efef10380037",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "report-a-business"
+}

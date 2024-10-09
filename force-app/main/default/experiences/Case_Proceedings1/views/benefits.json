@@ -1,0 +1,125 @@
+{
+  "appPageId" : "69609973-08c8-48ef-885d-9dd2d6d52939",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "58848240-fde3-4679-ab14-d32b5dea32f8",
+  "label" : "Benefits",
+  "regions" : [ {
+    "id" : "e538bdd0-36c7-4412-91bb-9dd9c22bd890",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "c458c38f-9ba3-43b0-8c0c-18cf85565d26",
+          "activeTab" : "benefitsAsgn",
+          "tabs" : [ {
+            "UUID" : "a33f9b5b-c830-43e3-bb8c-baec5952305c",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "filterName" : "All_BenefitAssignment",
+                "layout" : "FULL",
+                "scope" : "BenefitAssignment"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "benefitsAsgn",
+            "tabName" : "Assignments"
+          }, {
+            "UUID" : "e0393f88-666e-47b3-97c4-a9a5605edee7",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "filterName" : "All_BenefitDisbursements",
+                "layout" : "FULL",
+                "scope" : "BenefitDisbursement"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "benefitDisb",
+            "tabName" : "Disbursements"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabLayout",
+      "id" : "c458c38f-9ba3-43b0-8c0c-18cf85565d26",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All_BenefitAssignment",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "BenefitAssignment",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "0a01e3e1-39e3-4b3f-93bd-aa46d3dbbfa8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a33f9b5b-c830-43e3-bb8c-baec5952305c",
+        "regionLabel" : "Assignments",
+        "regionName" : "benefitsAsgn",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All_BenefitDisbursements",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "BenefitDisbursement",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "db5b3ab1-e1ee-4f9b-b529-36094c65ae14",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e0393f88-666e-47b3-97c4-a9a5605edee7",
+        "regionLabel" : "Disbursements",
+        "regionName" : "benefitDisb",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "694917be-17ba-4bab-8007-a87e3eaee9e3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0a7b9090-8c83-42f6-8ea0-79bab429697f",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "bm-benefits"
+}

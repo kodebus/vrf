@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "bd4648ad-422f-486e-acee-3d647754782d",
+  "appPageId" : "814ca7f7-6562-4a2d-9de6-f81ba9199775",
+  "configurationTags" : [ ],
+  "id" : "7a5ce00a-81a7-4413-acb9-fcdcdcb1a654",
+  "label" : "Case Proceeding File a Complaint",
+  "pageAccess" : "UseParent",
+  "routeType" : "caseproceeding-file-a-complaint",
+  "type" : "route",
+  "urlPrefix" : "caseproceeding-file-a-complaint"
+}

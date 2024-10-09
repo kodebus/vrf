@@ -1,0 +1,49 @@
+{
+  "appPageId" : "69609973-08c8-48ef-885d-9dd2d6d52939",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "4c5d2cab-b2bf-402b-adce-8e91b0be8e03",
+  "label" : "CaseProceeding File a Complaint",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>       <span style=\"color: #2D2D2D;font-size: 21px;\">File a Complaint</span>      </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">Specify details about the complaint, its reporter, involved participants, and evidence .</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "6ed2af72-6411-4c22-b43c-4988453ebef8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2db0972a-30a3-484d-9895-820d12b411a5",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "English",
+        "subType" : "ComplaintIntake",
+        "theme" : "lightning",
+        "type" : "CaseProceeding"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "a362456c-f009-4fae-b7fc-b550105ca37f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "29e52cd8-6d27-4a9c-a201-26f80d516322",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "defa431f-382c-488e-a683-2089fbc16a4c",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "caseproceeding-file-a-complaint"
+}

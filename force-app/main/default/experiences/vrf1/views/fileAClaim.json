@@ -1,0 +1,33 @@
+{
+  "appPageId" : "814ca7f7-6562-4a2d-9de6-f81ba9199775",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "ab942d53-23a0-4ce5-b335-ca28041211b0",
+  "label" : "File a Claim",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><span style=\"font-size: 21px; color: rgb(45, 45, 45);\">File a Claim</span></h1><p>File a claim to get workers' compensation benefits for a work-related injury or disease.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "3640df4c-fee7-48a0-b381-d728e52cbbe8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cd3230b1-eee3-4104-9b82-c0a448bd1aae",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "99d24a0b-dc27-4ac2-90d0-f0e714d31948",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9e30c707-16c1-4904-8c35-3c3c9cba2b8e",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "file-a-claim"
+}

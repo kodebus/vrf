@@ -1,0 +1,64 @@
+{
+  "appPageId" : "8d4c20ac-12b6-49d1-b651-93acadd90621",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "ea8a89a7-08f8-4dfb-80f2-5c6501f79731",
+  "label" : "Assess your License or Permit Needs",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>    <span style=\"color: #2D2D2D;font-size: 21px;\">Assess Your License or Permit Needs</span>   </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">Decide which licenses and permits you need for your business or profession.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "26baeedf-3eb5-4e75-980f-443098212641",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b85e5f8f-d9f3-4063-a639-e9803073e512",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "dir" : "ltr",
+        "flexipageRegionWidth" : "LARGE",
+        "inline" : false,
+        "inlineLabel" : "Launch undefined/undefined",
+        "inlineVariant" : "brand",
+        "layout" : "lightning",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:licensingAndPermittingPrescreeningEnglish",
+      "id" : "e4e9cba5-e8ca-42c7-94f0-f4d3b91dbc39",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4f8342e1-0e4d-4b8f-89bb-87a02dc191c8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "8eb34513-3214-4859-8429-b43748c3e6e3",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Assess your License or Permit Needs"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "bb23b023-766c-4362-82d6-e4c4a6ecae15",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "986f1982-6dc5-4d72-bb40-8745259d9fc9",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "pre-screening"
+}

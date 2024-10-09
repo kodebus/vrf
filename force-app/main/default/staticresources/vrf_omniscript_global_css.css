@@ -1,0 +1,15 @@
+article[class="omniscript-article nds-card nds-grid nds-theme_default nds-grid_vertical"],input{
+    background: rgb(243, 228, 206) !important;
+}
+input,label{
+    font-weight: 900 !important;
+}
+label{
+    color: darkblue !important;
+}
+omnistudio-omniscript-telephone div.nds-form-element label abbr{
+    color: darkgreen !important;
+}
+omnistudio-omniscript-telephone div.nds-has-error label abbr{
+    color: red !important;
+}

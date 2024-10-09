@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Na kontrolnem seznamu nalog za uvajanje namesto imena in opisa, ki sta nastavljena v zapisu naloge uvajanja, prikažite ime in opis, ki sta nastavljena v zapisu naloge.</help>
+    <label><!-- Use Task Labels in Onboarding Checklist --></label>
+    <name>wkdw__UseTaskLabelsInChecklist__c</name>
+</CustomFieldTranslation>

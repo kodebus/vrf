@@ -1,0 +1,416 @@
+{
+  "activeBrandingSetId" : "b7054229-142e-4698-97a9-c4ca3418849a",
+  "customCSS" : "",
+  "developerName" : "lpi",
+  "id" : "3a0f0291-4aee-4cea-a01a-c14fd4842f30",
+  "label" : "License Permits",
+  "layouts" : {
+    "Home" : "a4faeaaa-fbc1-439e-8c98-3be72d4f655f",
+    "Inner" : "5c09f275-76b9-4f5c-8fc2-70bd0ad40c6c",
+    "Login" : "a5a1e157-f8b2-4c36-8b5c-58a300972c97",
+    "ServiceNotAvailable" : "356f3559-275c-4f5e-b6e5-0cc4287ca237"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "a5a1e157-f8b2-4c36-8b5c-58a300972c97",
+    "label" : "Login",
+    "regions" : [ {
+      "id" : "53fc28d0-79fa-494c-a55e-43d3e8cb64a7",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "900c23c7-df8c-48c4-bf77-d58270617555",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "cc381ece-ba95-44b9-b92e-19d1bcc7bdc5",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1440,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "5c09f275-76b9-4f5c-8fc2-70bd0ad40c6c",
+    "label" : "Default",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "background" : "background: #008080",
+          "backgroundOverlayColor" : "#008080",
+          "borderBottomColor" : "",
+          "borderTopColor" : "#008080",
+          "bottomRowHeight" : 5,
+          "bottomRowOverlayColor" : "#008080",
+          "containHeader" : true,
+          "containHeaderWidth" : 1440,
+          "dropdownBackgroundColor" : "#008080",
+          "dropdownBackgroundHoverColor" : "#004d4c",
+          "dropdownBorderColor" : "#008080",
+          "dropdownTextColor" : "rgb(255, 255, 255)",
+          "dropdownTextHoverColor" : "rgb(255, 255, 255)",
+          "iconLinkColor" : "rgb(255, 255, 255)",
+          "iconLinkHoverColor" : "rgb(255, 255, 255)",
+          "iconLinkTextShadowColor" : "",
+          "linkActiveBorderColor" : "rgb(255, 255, 255)",
+          "linkColor" : "rgb(255, 255, 255)",
+          "linkHoverColor" : "rgb(255, 255, 255)",
+          "linkTextShadowColor" : "rgba(0, 0, 0, 0.5)",
+          "logoWidth" : 200,
+          "searchPosition" : "center",
+          "searchStyle" : "expanded",
+          "showAppLauncher" : false,
+          "showNotifications" : true,
+          "showProfileMenu" : true,
+          "showSearch" : true,
+          "topRowHeight" : 20
+        },
+        "componentName" : "forceCommunity:themeHeaderStacked",
+        "id" : "fa0c0974-cfea-4c8a-8eaf-3aa189935c10",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "accountManagementLabel" : "Account Management",
+              "buttonBackgroundColor" : "#FFFFFF",
+              "buttonBackgroundHoverColor" : "#008080",
+              "buttonBorderColor" : "#DDDBDA",
+              "buttonBorderRadius" : 5,
+              "buttonText" : "Log in",
+              "buttonTextColor" : "#008080",
+              "buttonTextHoverColor" : "#FFFFFF",
+              "communityBuilderLabel" : "Experience Builder",
+              "communitySetupLabel" : "Salesforce Setup",
+              "contactSupportLabel" : "Contact Support",
+              "filterName" : "MyCases",
+              "homeLabel" : "Home",
+              "logoutLabel" : "Logout",
+              "menuStyle" : "iconOnly",
+              "messagesLabel" : "Messages",
+              "myAccountLabel" : "My Account",
+              "showAccountManagement" : false,
+              "showContactSupport" : false,
+              "showMessages" : false,
+              "showUserSettings" : false,
+              "userSettingsLabel" : "My Settings",
+              "viewProfileLabel" : "My Profile"
+            },
+            "componentName" : "forceCommunity:themeProfileMenu",
+            "id" : "e7e8806c-8681-4f75-84e2-72c217c06d2e",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "b8085db5-4e07-4748-a0ca-17d4524df270",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "#008080",
+              "borderColor" : "rgba(255, 255, 255, 1)",
+              "borderRadius" : 12,
+              "borderStyle" : "outline",
+              "buttonColor" : "",
+              "buttonHoverColor" : "",
+              "crossObjectTypeaheadApiNames" : "",
+              "iconColor" : "rgba(255, 255, 255, 1)",
+              "placeholderText" : "Search for Articles, FAQ’s & more",
+              "placeholderTextColor" : "rgba(255, 255, 255, 1)",
+              "showSearchButton" : false,
+              "textColor" : "rgb(255, 255, 255)",
+              "typeaheadResultMax" : 5,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearch",
+            "id" : "21475caf-a754-499a-b336-8ffa6297437b",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "ba7c66ab-8ef6-4045-89f2-9af0710404bc",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "navAlignment" : "left",
+              "navItemThreshold" : 5,
+              "navigationMenuEditorRefresh" : ""
+            },
+            "componentName" : "forceCommunity:themeNav",
+            "id" : "33bb2325-782d-4ea3-a2da-9104a44f3943",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "509eb812-ee6d-4cb8-ba6f-65398d02eaa5",
+          "regionName" : "nav",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "b0b92018-65e2-4900-9b2d-5c492307cc0d",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "18f65d71-b634-4390-9788-8c1980d644d1",
+      "regionName" : "themeHero",
+      "type" : "region"
+    }, {
+      "id" : "89b0e499-7327-4f47-b9fc-f317d121c846",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1440,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:lpiLayoutStarter",
+    "id" : "a4faeaaa-fbc1-439e-8c98-3be72d4f655f",
+    "label" : "Home",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "background" : "background: #008080",
+          "backgroundOverlayColor" : "#008080",
+          "borderBottomColor" : "",
+          "borderTopColor" : "#008080",
+          "bottomRowHeight" : 5,
+          "bottomRowOverlayColor" : "#008080",
+          "containHeader" : true,
+          "containHeaderWidth" : 1440,
+          "dropdownBackgroundColor" : "#008080",
+          "dropdownBackgroundHoverColor" : "#004d4c",
+          "dropdownBorderColor" : "#008080",
+          "dropdownTextColor" : "rgb(255, 255, 255)",
+          "dropdownTextHoverColor" : "rgb(255, 255, 255)",
+          "iconLinkColor" : "rgb(255, 255, 255)",
+          "iconLinkHoverColor" : "rgb(255, 255, 255)",
+          "iconLinkTextShadowColor" : "",
+          "linkActiveBorderColor" : "rgb(255, 255, 255)",
+          "linkColor" : "rgb(255, 255, 255)",
+          "linkHoverColor" : "rgb(255, 255, 255)",
+          "linkTextShadowColor" : "rgba(0, 0, 0, 0.5)",
+          "logoWidth" : 200,
+          "searchPosition" : "center",
+          "searchStyle" : "expanded",
+          "showAppLauncher" : false,
+          "showNotifications" : true,
+          "showProfileMenu" : true,
+          "showSearch" : true,
+          "topRowHeight" : 20
+        },
+        "componentName" : "forceCommunity:themeHeaderStacked",
+        "id" : "3a56e5b8-50b8-450e-92c9-b9acaa311279",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "accountManagementLabel" : "Account Management",
+              "buttonBackgroundColor" : "#FFFFFF",
+              "buttonBackgroundHoverColor" : "#008080",
+              "buttonBorderColor" : "#DDDBDA",
+              "buttonBorderRadius" : 5,
+              "buttonText" : "Log in",
+              "buttonTextColor" : "#008080",
+              "buttonTextHoverColor" : "#FFFFFF",
+              "communityBuilderLabel" : "Experience Builder",
+              "communitySetupLabel" : "Salesforce Setup",
+              "contactSupportLabel" : "Contact Support",
+              "filterName" : "MyCases",
+              "homeLabel" : "Home",
+              "logoutLabel" : "Logout",
+              "menuStyle" : "iconOnly",
+              "messagesLabel" : "Messages",
+              "myAccountLabel" : "My Account",
+              "showAccountManagement" : false,
+              "showContactSupport" : false,
+              "showMessages" : false,
+              "showUserSettings" : false,
+              "userSettingsLabel" : "My Settings",
+              "viewProfileLabel" : "My Profile"
+            },
+            "componentName" : "forceCommunity:themeProfileMenu",
+            "id" : "2853c5b0-4c0d-4613-b8c1-9d40e32e2989",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "b937aaf1-3500-4ddc-88fe-59c505be9a87",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "#008080",
+              "borderColor" : "rgba(255, 255, 255, 1)",
+              "borderRadius" : 12,
+              "borderStyle" : "outline",
+              "buttonColor" : "",
+              "buttonHoverColor" : "",
+              "crossObjectTypeaheadApiNames" : "",
+              "iconColor" : "rgba(255, 255, 255, 1)",
+              "placeholderText" : "Search for Articles, FAQ’s & more",
+              "placeholderTextColor" : "rgba(255, 255, 255, 1)",
+              "showSearchButton" : false,
+              "textColor" : "rgb(255, 255, 255)",
+              "typeaheadResultMax" : 5,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearch",
+            "id" : "4288fa3b-77f3-4a94-a1e4-7e93c60eb98f",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "59593a3c-b0e9-4450-8eb7-13bb17895240",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "navAlignment" : "left",
+              "navItemThreshold" : 5,
+              "navigationMenuEditorRefresh" : ""
+            },
+            "componentName" : "forceCommunity:themeNav",
+            "id" : "a2baeaa6-b90a-4d36-9125-fa62c89af809",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "a0b2e5d5-bc1c-4f95-9bf6-65c3053c109d",
+          "regionName" : "nav",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "dd6b39f2-6667-4869-8728-21be03ff3647",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "bgImage" : "background: rgba(255,255,255) url(/sfsites/assets/themes/publicsectorFullBgHero.png) center center /cover",
+          "bgOverlayColor" : "rgb(255, 255, 255, 0)",
+          "captionText" : "Licensing, Permit, and Inspection",
+          "captionTextColor" : "#007f88",
+          "captionTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "contentAlignment" : "left",
+          "contentWidth" : 49,
+          "ctaBtnOneBgColor" : "#007f88",
+          "ctaBtnOneBgHoverColor" : "#004d4c",
+          "ctaBtnOneBorderColor" : "rgba(10, 50, 198, 0)",
+          "ctaBtnOneOpenNewTab" : false,
+          "ctaBtnOneText" : "Apply for License or Permit",
+          "ctaBtnOneTextColor" : "rgb(255, 255, 255)",
+          "ctaBtnOneTextHoverColor" : "",
+          "ctaBtnOneUrl" : "apply-license-permit",
+          "ctaBtnRadius" : 4,
+          "ctaBtnTwoBgColor" : "rgba(255, 255, 255, 1)",
+          "ctaBtnTwoBgHoverColor" : "rgba(0, 0, 255, 1)",
+          "ctaBtnTwoBorderColor" : "rgba(0, 0, 0, 1)",
+          "ctaBtnTwoOpenNewTab" : false,
+          "ctaBtnTwoText" : "Help",
+          "ctaBtnTwoTextColor" : "rgba(0, 0, 0, 1)",
+          "ctaBtnTwoTextHoverColor" : "rgba(255, 255, 255, 1)",
+          "ctaBtnTwoUrl" : "",
+          "ctaShowBtnOne" : true,
+          "ctaShowBtnTwo" : false,
+          "fixedHeroWidth" : true,
+          "heroHeight" : 115,
+          "heroWidth" : 1426,
+          "showCaption" : true,
+          "showSubtitle" : false,
+          "showTitle" : true,
+          "subtitleText" : "Are you ready?",
+          "subtitleTextColor" : "rgba(255, 255, 255, 1)",
+          "subtitleTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "titleText" : "Apply for, renew, and track your business and individual licenses",
+          "titleTextColor" : "#007f88",
+          "titleTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "type" : "callToAction"
+        },
+        "componentName" : "forceCommunity:themeHeroStarter",
+        "id" : "23402e89-ce1c-47bd-84ef-8fa333c29545",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "rgb(21, 137, 238)",
+              "borderColor" : "rgba(0, 0, 0, 0)",
+              "borderRadius" : 25,
+              "borderStyle" : "outline",
+              "buttonColor" : "",
+              "buttonHoverColor" : "",
+              "crossObjectTypeaheadApiNames" : "",
+              "iconColor" : "#FFFFFF",
+              "placeholderText" : "Ask a question...",
+              "placeholderTextColor" : "rgba(0, 0, 0, 0.6)",
+              "publicDropdownBackgroundColor" : "#FFFFFF",
+              "publicDropdownBackgroundHoverColor" : "",
+              "publicDropdownBorderColor" : "#F0F0F0",
+              "publicDropdownTextColor" : "",
+              "publicDropdownTextHoverColor" : "",
+              "showSearchButton" : true,
+              "textColor" : "rgb(255, 255, 255)",
+              "typeaheadResultMax" : 6,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearchHero",
+            "id" : "9cdb1d6d-00ef-4e37-ad23-8c5a39f0be68",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "1578d9e1-4bdc-4739-ab8c-7c80de1a6e54",
+          "regionName" : "search",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "f949a95d-1611-4e12-aa1c-48e40255a87d",
+      "regionName" : "themeHero",
+      "type" : "region"
+    }, {
+      "id" : "623f6761-4b2f-4dd4-8097-bb678423f9b6",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "356f3559-275c-4f5e-b6e5-0cc4287ca237",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "64bc0b5a-04d6-45f1-a6e4-5f4f31c59b71",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "f8c3bd4a-062d-41ed-a7cb-7a5a4b0fdf3f",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

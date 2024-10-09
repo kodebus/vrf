@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Subtype_Claim__c</fullName>
+    <externalId>false</externalId>
+    <label>Event Subtype Claim</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>EventType</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Claim</fullName>
+                <default>true</default>
+                <label>New Claim</label>
+            </value>
+            <value>
+                <fullName>Update Claim</fullName>
+                <default>false</default>
+                <label>Update Claim</label>
+            </value>
+            <value>
+                <fullName>Manage Claim</fullName>
+                <default>false</default>
+                <label>Manage Claim</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Claim</controllingFieldValue>
+            <valueName>New Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claim</controllingFieldValue>
+            <valueName>Update Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claim</controllingFieldValue>
+            <valueName>Manage Claim</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

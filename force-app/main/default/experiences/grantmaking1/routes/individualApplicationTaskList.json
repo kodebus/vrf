@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "23f31672-1491-4635-8482-0ea2e72d102f",
+  "appPageId" : "7a5517cc-055d-497c-95f2-c8bf9fd704ba",
+  "configurationTags" : [ ],
+  "id" : "18e4f4bf-781e-44b0-bf65-4ef94c077e93",
+  "label" : "Individual Application Task List",
+  "routeType" : "list-13a",
+  "type" : "route",
+  "urlPrefix" : "individualApplicationTask"
+}

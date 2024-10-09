@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "b77e3792-dfaa-4076-8518-d0b2a5dd9d2a",
+  "appPageId" : "52f6f54a-e1c1-4192-b16e-8219b2293f61",
+  "configurationTags" : [ ],
+  "id" : "8f9f6612-6ea6-471f-99dd-3cc413673c46",
+  "label" : "My Applications and Licenses",
+  "pageAccess" : "UseParent",
+  "routeType" : "my-application-licenses",
+  "type" : "route",
+  "urlPrefix" : "view-license-permit-status"
+}

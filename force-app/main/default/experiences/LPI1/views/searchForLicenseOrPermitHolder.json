@@ -1,0 +1,49 @@
+{
+  "appPageId" : "8d4c20ac-12b6-49d1-b651-93acadd90621",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "7a81f77f-348e-49b5-81f1-2853e6701e12",
+  "label" : "Search for License or Permit Holder",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>    <span style=\"color: #2D2D2D;font-size: 21px;\">Search for License or Permit Holder</span>   </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">Search for business license information using company name or license number.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "4600d3fa-6d05-43f4-be6d-6496cb9b0822",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "970fe51b-e107-4ce8-ac66-19707c52297d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "dir" : "ltr",
+        "flexipageRegionWidth" : "LARGE",
+        "inline" : false,
+        "inlineLabel" : "Launch undefined/undefined",
+        "inlineVariant" : "brand",
+        "layout" : "lightning",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:licensingAndPermittingLicenseSearchEnglish",
+      "id" : "f4e44bdb-bf34-4a08-8045-8c5b49e0c5e8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e374f723-4498-4e37-bc92-c79cba3a9bab",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a6e6c8eb-7660-46ee-a2b0-12bbea348c1b",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "lookup-licenses-permits"
+}

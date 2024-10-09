@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Subtype_Registration__c</fullName>
+    <externalId>false</externalId>
+    <label>Event Subtype Registration</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>EventType</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Registering for myself. I was present at the site.</fullName>
+                <default>false</default>
+                <label>Registering for myself. I was present at the site.</label>
+            </value>
+            <value>
+                <fullName>Registering for someone who is incapacitated</fullName>
+                <default>false</default>
+                <label>Registering for someone who is incapacitated</label>
+            </value>
+            <value>
+                <fullName>Registering for someone who died</fullName>
+                <default>false</default>
+                <label>Registering for someone who died</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Registration</controllingFieldValue>
+            <valueName>Registering for myself. I was present at the site.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Registration</controllingFieldValue>
+            <valueName>Registering for someone who is incapacitated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Registration</controllingFieldValue>
+            <valueName>Registering for someone who died</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

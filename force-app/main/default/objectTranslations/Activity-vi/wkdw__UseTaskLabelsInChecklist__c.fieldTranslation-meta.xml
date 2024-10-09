@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Trong danh sách kiểm tra nhiệm vụ đào tạo nhập môn, hãy hiển thị tên và bộ mô tả trên hồ sơ nhiệm vụ thay vì tên và bộ mô tả trên hồ sơ nhiệm vụ đào tạo nhập môn.</help>
+    <label><!-- Use Task Labels in Onboarding Checklist --></label>
+    <name>wkdw__UseTaskLabelsInChecklist__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "4e513db0-5a8b-44b3-a97d-b36a76089b06",
+  "appPageId" : "69609973-08c8-48ef-885d-9dd2d6d52939",
+  "configurationTags" : [ ],
+  "id" : "78584f97-a652-4d3e-bca5-6d67c666e80a",
+  "label" : "Report changes",
+  "routeType" : "report-changes",
+  "type" : "route",
+  "urlPrefix" : "report-changes"
+}

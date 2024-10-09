@@ -1,0 +1,41 @@
+{
+  "appPageId" : "52f6f54a-e1c1-4192-b16e-8219b2293f61",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "c75e05ad-d587-4d94-8efc-805b50d5461d",
+  "label" : "Permits",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>             <span style=\"color: #2D2D2D;font-size: 21px;\">View Dependent Permits</span>         </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">View the permits that you need before you apply for a business type. </div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "c336e733-b4dc-4bc0-89ce-5d33a26f6460",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "08179167-5195-4b01-ba4d-696725c61374",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "builder_industries_publicsector:permitDependencyWithFilterContainer",
+      "id" : "cb48491e-d0f4-457a-9915-2cce7b0cbe56",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8cc74163-897d-43ad-8a98-d9609ed1bf60",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ea386498-b638-4ba0-9431-32d0511a92b1",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "show-permit-dependency"
+}

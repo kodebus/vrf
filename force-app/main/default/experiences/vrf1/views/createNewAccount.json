@@ -1,0 +1,85 @@
+{
+  "appPageId" : "814ca7f7-6562-4a2d-9de6-f81ba9199775",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "0c743ea4-f0eb-4b38-8dc3-33e1972b6cbe",
+  "label" : "Create New Account",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "4fd8438f-47d3-46b1-bb51-783262df6ce1",
+          "columns" : [ {
+            "UUID" : "4974f815-a5b8-4561-8326-db243d029d1e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "4fd8438f-47d3-46b1-bb51-783262df6ce1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p>Create new Account....</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "c5c31618-ac6d-4e15-9885-41e064419b6d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "direction" : "ltr",
+            "display" : "Display OmniScript on page",
+            "inlineVariant" : "brand",
+            "language" : "English",
+            "subType" : "RegisterNewAccount",
+            "theme" : "lightning",
+            "type" : "VRF"
+          },
+          "componentName" : "runtime_omnistudio:omniscript",
+          "id" : "999554d7-96b7-4acf-8442-3cb3c88b5c9d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4974f815-a5b8-4561-8326-db243d029d1e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "88c31cc9-ddf7-4bce-8291-d758bd37fb37",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Create New Account"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0dd49a7d-3652-4b25-8ee9-7d5c3b09648e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "54bd7267-e591-47c8-8f16-e8c9aac51d9c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-create-new-account"
+}

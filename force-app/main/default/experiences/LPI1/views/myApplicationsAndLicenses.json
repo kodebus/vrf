@@ -1,0 +1,33 @@
+{
+  "appPageId" : "8d4c20ac-12b6-49d1-b651-93acadd90621",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "35be9d8b-b780-41ef-8cb8-936b1199ab9f",
+  "label" : "My Applications and Licenses",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>    <span style=\"color: #2D2D2D;font-size: 21px;\">View the Status of a License or Permit</span>   </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">View submitted license or permit applications, draft applications, and issued licenses and permits.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "e07947ba-6261-4738-9296-575f9cf082ab",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b78c6251-a249-4cc0-920c-1bb490f8b4ac",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "5510e827-97bf-4ec0-b847-0bd986d5f488",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "94a39836-a18c-4467-97da-ccf01dc3ea1c",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "my-application-licenses"
+}

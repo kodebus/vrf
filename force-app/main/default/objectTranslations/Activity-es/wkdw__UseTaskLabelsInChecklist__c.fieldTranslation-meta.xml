@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>En la lista de comprobación de incorporación de tareas, muestra el conjunto de nombre y descripción en el registro de tarea en vez del conjunto de nombre y descripción en el registro de tarea de incorporación.</help>
+    <label><!-- Use Task Labels in Onboarding Checklist --></label>
+    <name>wkdw__UseTaskLabelsInChecklist__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "33d25f98-6af3-440f-a6dc-3e6274fe8cf2",
+  "appPageId" : "52f6f54a-e1c1-4192-b16e-8219b2293f61",
+  "configurationTags" : [ ],
+  "id" : "70438409-d3fe-4b53-9f44-0b7dce991ffc",
+  "label" : "My Complaints",
+  "pageAccess" : "UseParent",
+  "routeType" : "my-complaints",
+  "type" : "route",
+  "urlPrefix" : "my-complaints"
+}

@@ -1,0 +1,49 @@
+{
+  "appPageId" : "52f6f54a-e1c1-4192-b16e-8219b2293f61",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "7735a6f4-f16c-4390-9b34-a31eda87dd3c",
+  "label" : "Apply for a License or a Permit",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>    <span style=\"color: #2D2D2D;font-size: 21px;\">Apply for a License or a Permit</span>   </h1>         <div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">Fill out a license or a permit application. You can save a draft application and complete it later.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "ce4b653f-d322-4cf4-812b-1402bb2d55f2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "36a59cdf-7ee6-4d22-8809-16bce36be521",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "dir" : "ltr",
+        "flexipageRegionWidth" : "LARGE",
+        "inline" : false,
+        "inlineLabel" : "Launch undefined/undefined",
+        "inlineVariant" : "brand",
+        "layout" : "lightning",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:licensingAndPermittingBusinessLicenseApplicationEnglish",
+      "id" : "7f59942e-0fba-4cf1-9c36-a7f52e552661",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "37d5ac52-0c64-4a9c-91f3-13056ad816dd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "96ce6f7b-9352-4657-815a-617ff709cf49",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "start-application"
+}

@@ -1,0 +1,83 @@
+{
+  "appPageId" : "814ca7f7-6562-4a2d-9de6-f81ba9199775",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "1c392a4b-b57d-4ab5-a281-7492d99f7e16",
+  "label" : "Accounts",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c1d934a1-68c4-481f-9b0f-2f8a8a010d54",
+          "columns" : [ {
+            "UUID" : "35759c43-06ea-44fe-8c5e-50d32299c208",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c1d934a1-68c4-481f-9b0f-2f8a8a010d54",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "AllAccounts",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "Account",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "07a11cfe-4c17-4606-baec-b2196e040e81",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "35759c43-06ea-44fe-8c5e-50d32299c208",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "068515b0-d7d7-45ba-9076-5d31973fbfeb",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Accounts"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5e3fdddd-583d-48f7-a3ef-a14408344480",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a6c85023-e9d0-418e-a351-b95840655ceb",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-accounts"
+}

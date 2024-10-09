@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IndustriesSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <appointmentDistributionOrgPref>false</appointmentDistributionOrgPref>
+    <enableAccountScoreEnabled>false</enableAccountScoreEnabled>
+    <enableAppInviteOrgPref>false</enableAppInviteOrgPref>
+    <enableBenefitManagementPreference>true</enableBenefitManagementPreference>
+    <enableCallReportAdminContextPref>true</enableCallReportAdminContextPref>
+    <enableCarePlansPreference>true</enableCarePlansPreference>
+    <enableCompliantDataSharingForAccount>false</enableCompliantDataSharingForAccount>
+    <enableCompliantDataSharingForCustomObjects>false</enableCompliantDataSharingForCustomObjects>
+    <enableCompliantDataSharingForInteraction>false</enableCompliantDataSharingForInteraction>
+    <enableCompliantDataSharingForInteractionSummary>false</enableCompliantDataSharingForInteractionSummary>
+    <enableCompliantDataSharingForOpportunity>false</enableCompliantDataSharingForOpportunity>
+    <enableDiscoveryFrameworkMetadata>true</enableDiscoveryFrameworkMetadata>
+    <enableEinsteinDocReader>false</enableEinsteinDocReader>
+    <enableEnhancedQuestionCreation>true</enableEnhancedQuestionCreation>
+    <enableEventManagementOrgPref>false</enableEventManagementOrgPref>
+    <enableEventWriteOrgPref>false</enableEventWriteOrgPref>
+    <enableIndustriesAssessment>true</enableIndustriesAssessment>
+    <enableInteractionRoleHierarchy>true</enableInteractionRoleHierarchy>
+    <enableInteractionSummaryPref>true</enableInteractionSummaryPref>
+    <enableInteractionSummaryRoleHierarchy>true</enableInteractionSummaryRoleHierarchy>
+    <enableMultiResourceOrgPref>false</enableMultiResourceOrgPref>
+    <enableOverbookingOrgPref>false</enableOverbookingOrgPref>
+    <enableShareSaWithArOrgPref>false</enableShareSaWithArOrgPref>
+    <enableSmartTags>false</enableSmartTags>
+    <enableTimelinePref>false</enableTimelinePref>
+    <enableTopicOrTemplate>false</enableTopicOrTemplate>
+    <enableTopicTimeSlot>true</enableTopicTimeSlot>
+    <enableVisitCalendarSync>false</enableVisitCalendarSync>
+    <enableVisitInventoryEnabled>false</enableVisitInventoryEnabled>
+    <rlaEditIfAccHasEdit>false</rlaEditIfAccHasEdit>
+</IndustriesSettings>

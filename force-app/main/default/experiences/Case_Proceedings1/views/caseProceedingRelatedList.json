@@ -1,0 +1,39 @@
+{
+  "appPageId" : "69609973-08c8-48ef-885d-9dd2d6d52939",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "784b49e7-858e-4fca-b1d5-f092735cbe4c",
+  "label" : "Case Proceeding Related List",
+  "regions" : [ {
+    "id" : "8ec6ef14-677d-49e6-92d2-c6e56b7ce352",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "c38ca900-016f-4232-9794-3dac95030b9f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1fd23f3e-a160-48be-b2c0-6ba1413537e9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "154f1c18-823f-41b9-a109-41b362f965b6",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-11F"
+}

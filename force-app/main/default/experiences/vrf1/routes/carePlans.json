@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "814ca7f7-6562-4a2d-9de6-f81ba9199775",
+  "configurationTags" : [ ],
+  "id" : "dbf897e4-dc4d-4aa6-83d1-6f4542386b2d",
+  "label" : "Care Plans",
+  "pageAccess" : "UseParent",
+  "routeType" : "bm-careplans",
+  "type" : "route",
+  "urlPrefix" : "careplans"
+}

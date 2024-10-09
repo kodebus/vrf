@@ -1,0 +1,49 @@
+{
+  "appPageId" : "487b2064-c841-48b4-a37b-41d9a703112e",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "200a1b87-ce56-4221-b7d4-2032c1d4190f",
+  "label" : "File a Claim",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>       <span style=\"color: #2D2D2D;font-size: 21px;\">File a Claim</span>      </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">File a claim to get workers' compensation benefits for a work-related injury or disease.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "bc72ab63-a8be-4e06-8104-42eaf55041ff",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b6fc52df-ee2b-469e-b0ca-7d4a1d6acbe1",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "English",
+        "subType" : "FileClaim",
+        "theme" : "lightning",
+        "type" : "SocialInsurance"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "77f06a92-bafc-4b7b-b6c7-6482037ebc56",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "858815db-dd2c-4daf-b904-3528a7746988",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "37b3e721-a51c-4c55-9dd3-57c573461624",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "file-a-claim"
+}

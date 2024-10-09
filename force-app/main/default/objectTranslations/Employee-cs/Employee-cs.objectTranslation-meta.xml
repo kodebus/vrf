@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Employee Profile Card Secondary Region --></label>
+        <name>wkdw__Employee_Profile_Card_Secondary_Region</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Employee Profile Card Tertiary Region --></label>
+        <name>wkdw__Employee_Profile_Card_Tertiary_Region</name>
+    </fieldSets>
+    <webLinks>
+        <label><!-- Assign_Onboarding_Tasks --></label>
+        <name>wkdw__Assign_Onboarding_Tasks</name>
+    </webLinks>
+</CustomObjectTranslation>

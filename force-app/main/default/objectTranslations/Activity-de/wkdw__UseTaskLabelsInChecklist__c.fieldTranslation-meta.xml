@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Zeigen Sie in der Checkliste für die Einarbeitung mit Aufgaben den für den Aufgabendatensatz festgelegten Namen und die Beschreibung anstelle des für den Aufgabendatensatz der Einarbeitung festgelegten Namen und die Beschreibung an.</help>
+    <label><!-- Use Task Labels in Onboarding Checklist --></label>
+    <name>wkdw__UseTaskLabelsInChecklist__c</name>
+</CustomFieldTranslation>

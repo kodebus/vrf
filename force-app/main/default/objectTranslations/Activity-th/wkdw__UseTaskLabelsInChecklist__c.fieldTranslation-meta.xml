@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ในรายการตรวจสอบการเตรียมความพร้อมสำหรับงาน แสดงชุดของชื่อและคำอธิบายบนเรกคอร์ดงาน แทนที่จะเป็นชุดของชื่อและคำอธิบายบนเรกคอร์ดงานการเตรียมความพร้อม</help>
+    <label><!-- Use Task Labels in Onboarding Checklist --></label>
+    <name>wkdw__UseTaskLabelsInChecklist__c</name>
+</CustomFieldTranslation>

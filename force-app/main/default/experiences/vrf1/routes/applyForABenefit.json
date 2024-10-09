@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "cebeb9eb-27ae-4b81-a656-6591001f96e4",
+  "appPageId" : "814ca7f7-6562-4a2d-9de6-f81ba9199775",
+  "configurationTags" : [ ],
+  "id" : "69e13949-f27a-4e89-8197-5d752c8dd472",
+  "label" : "Apply for a Benefit",
+  "routeType" : "apply-for-benefit",
+  "type" : "route",
+  "urlPrefix" : "apply-for-benefit"
+}

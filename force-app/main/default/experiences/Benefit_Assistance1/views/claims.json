@@ -1,0 +1,82 @@
+{
+  "appPageId" : "487b2064-c841-48b4-a37b-41d9a703112e",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "7c43cc00-5b94-4be6-85ef-c3884111a394",
+  "label" : "Claims",
+  "regions" : [ {
+    "id" : "f19d83fb-ec3e-40dd-89d9-5e91e55ad68a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "11144ac0-6ca7-4f00-b034-3c4b751ba07f",
+          "activeTab" : "claims",
+          "tabs" : [ {
+            "UUID" : "41b22cff-9097-4c7e-ad0f-188444f7a009",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "filterName" : "All_Claims",
+                "layout" : "FULL",
+                "scope" : "Claim"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "claims",
+            "tabName" : "Claims"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabLayout",
+      "id" : "11144ac0-6ca7-4f00-b034-3c4b751ba07f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All_Claims",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "Claim",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "285f6ff8-e623-4b5d-9399-cbdbf564c46e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "41b22cff-9097-4c7e-ad0f-188444f7a009",
+        "regionLabel" : "Claims",
+        "regionName" : "claims",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1c7dbe59-1702-467f-9e8c-5f74c14f2008",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "1f06c1f3-0ed8-43a9-b57e-6aace1c2cfc8",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "bm-claims"
+}

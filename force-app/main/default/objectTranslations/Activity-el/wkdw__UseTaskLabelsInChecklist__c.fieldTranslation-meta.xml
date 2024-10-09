@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Εμφανίστε στη λίστα ελέγχου με τις εργασίες υποδοχής νέων μελών το όνομα και την περιγραφή που έχουν οριστεί στην εγγραφή εργασίας αντί για το όνομα και την περιγραφή που έχουν οριστεί στην εγγραφή εργασίας υποδοχής νέων μελών.</help>
+    <label><!-- Use Task Labels in Onboarding Checklist --></label>
+    <name>wkdw__UseTaskLabelsInChecklist__c</name>
+</CustomFieldTranslation>

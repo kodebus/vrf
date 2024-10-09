@@ -1,0 +1,168 @@
+{
+  "appPageId" : "814ca7f7-6562-4a2d-9de6-f81ba9199775",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "69b772c6-d76d-41f7-a652-db877ed73856",
+  "label" : "Benefits",
+  "regions" : [ {
+    "id" : "810c5efa-3fab-44af-909d-57ab090299e8",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "c17c0334-75c6-405d-9990-056665fddeeb",
+          "activeTab" : "benefitsAsgn",
+          "tabs" : [ {
+            "UUID" : "ca7cb1d7-4e00-46dd-8d52-a1a26c81654e",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "filterName" : "All_BenefitAssignment",
+                "layout" : "FULL",
+                "scope" : "BenefitAssignment"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "benefitsAsgn",
+            "tabName" : "Assignments"
+          }, {
+            "UUID" : "3e034470-60f5-4222-9aca-1473ce7040db",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "filterName" : "All_BenefitDisbursements",
+                "layout" : "FULL",
+                "scope" : "BenefitDisbursement"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "benefitDisb",
+            "tabName" : "Disbursements"
+          }, {
+            "UUID" : "118b2ee9-9b47-4271-8bd4-965b2ad558d6",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "filterName" : "RecertificationPendingBAFilter",
+                "layout" : "FULL",
+                "scope" : "BenefitAssignment"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "recertificationPendingBA",
+            "tabName" : "Pending Recertification"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabLayout",
+      "id" : "c17c0334-75c6-405d-9990-056665fddeeb",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All_BenefitAssignment",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "BenefitAssignment",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "918f430e-f4d7-42fd-9949-5eba19f8ac34",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ca7cb1d7-4e00-46dd-8d52-a1a26c81654e",
+        "regionLabel" : "Assignments",
+        "regionName" : "benefitsAsgn",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All_BenefitDisbursements",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "BenefitDisbursement",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "73a66e2f-269a-4786-986b-ee6b1250740e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3e034470-60f5-4222-9aca-1473ce7040db",
+        "regionLabel" : "Disbursements",
+        "regionName" : "benefitDisb",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "RecertificationPendingBAFilter",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "BenefitAssignment",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "c2f1385f-1396-4045-9ae2-f77cd5e64c6a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "118b2ee9-9b47-4271-8bd4-965b2ad558d6",
+        "regionLabel" : "Pending Recertification",
+        "regionName" : "recertificationPendingBA",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0cd20983-6387-4ea7-a0fe-226534447934",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "551bc70c-0862-4add-80f7-5aa775e2654d",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "bm-benefits"
+}

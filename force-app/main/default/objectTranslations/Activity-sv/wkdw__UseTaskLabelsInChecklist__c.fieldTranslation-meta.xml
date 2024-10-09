@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>I checklistan för onboarding av uppgifter, visa namnet och beskrivningen som angetts för uppgiftsposten istället för namnet och beskrivningen som angetts för onboardingens uppgiftspost.</help>
+    <label><!-- Use Task Labels in Onboarding Checklist --></label>
+    <name>wkdw__UseTaskLabelsInChecklist__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "61b6ec89-970c-4dcf-808c-37cf3d4bbce5",
+  "appPageId" : "09459f47-ad3c-49dc-8151-17419baf0c1a",
+  "configurationTags" : [ ],
+  "id" : "fad46f00-ccba-4ce6-b8f1-7acf6001122f",
+  "label" : "Assess your License or Permit Needs",
+  "pageAccess" : "UseParent",
+  "routeType" : "pre-screening",
+  "type" : "route",
+  "urlPrefix" : "assess-license-permit-needs"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "0c743ea4-f0eb-4b38-8dc3-33e1972b6cbe",
+  "appPageId" : "814ca7f7-6562-4a2d-9de6-f81ba9199775",
+  "configurationTags" : [ ],
+  "id" : "b0b53b42-7788-4954-bfda-c15155cba919",
+  "label" : "Create New Account",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-create-new-account",
+  "type" : "route",
+  "urlPrefix" : "accounts/create-new-account"
+}

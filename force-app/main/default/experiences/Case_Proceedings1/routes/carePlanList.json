@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "45eaf05c-ffa6-4d08-8275-09bf1340ff1d",
+  "appPageId" : "69609973-08c8-48ef-885d-9dd2d6d52939",
+  "configurationTags" : [ ],
+  "id" : "91b8487c-205c-4423-9c75-f6d4ad63df3f",
+  "label" : "Care Plan List",
+  "routeType" : "list-1sp",
+  "type" : "route",
+  "urlPrefix" : "careplan"
+}

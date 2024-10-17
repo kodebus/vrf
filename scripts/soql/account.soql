@@ -3,4 +3,18 @@
 //     query text and running the command:
 //     SFDX: Execute SOQL Query with Currently Selected Text
 
-SELECT Id, Name FROM Account
+SELECT Id, Name FROM Account order by name
+
+
+SELECT LastName FROM Contact where lastname = 'pierini' ORDER BY LastName ASC NULLS FIRST
+
+SELECT LastName, Name, 
+(SELECT FirstName FROM Contact)
+FROM account
+WHERE LastName = 'pierini'
+
+
+
+from account where lastname = 'pierini'
+
+select name, lastnane from contact

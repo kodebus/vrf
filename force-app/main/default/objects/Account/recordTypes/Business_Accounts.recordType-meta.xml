@@ -2,6 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Business_Accounts</fullName>
     <active>true</active>
+    <description>Any / All Business Accounts</description>
     <label>Business Accounts</label>
     <picklistValues>
         <picklist>AccountSource</picklist>
@@ -47,6 +48,48 @@
         </values>
         <values>
             <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Type__c</picklist>
+        <values>
+            <fullName>Daycare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Entity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LawFirm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software Company</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Identification_Type__c</picklist>
+        <values>
+            <fullName>ITIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSN</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -201,6 +244,21 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Person_Type_Victim__c</picklist>
+        <values>
+            <fullName>Registering for a deceased victim</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Registering for myself</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registering for someone who is incapacitated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Rating</picklist>
         <values>
             <fullName>Cold</fullName>
@@ -255,6 +313,60 @@
         </values>
         <values>
             <fullName>Reseller</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Victim_Location__c</picklist>
+        <values>
+            <fullName>At the Pentagon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>At the Shanksville%2C Pennsylvania site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lower Manhattan - South of Canal Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outside Lower Manhattan - Victim exposed to dust%2Fdebris from the World Trade Center site</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Victim_RelatedPerson_Relationship__c</picklist>
+        <values>
+            <fullName>Child %2F Stepchild %2F Foster child</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ex-Spouse %2F Ex-Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grandchildren</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grandparent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Relative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other relative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parent %2F Parent-in-law %2F Stepparent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spouse %2F Partner</fullName>
             <default>false</default>
         </values>
     </picklistValues>

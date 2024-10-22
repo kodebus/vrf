@@ -42,6 +42,7 @@
                 <type>InternalLink</type>
             </navigationMenuItem>
             <navigationMenuItem>
+                <defaultListViewId>All_Claims</defaultListViewId>
                 <label>View All Claims</label>
                 <position>1</position>
                 <publiclyAvailable>true</publiclyAvailable>

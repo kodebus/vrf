@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Daycare</fullName>
+                <default>false</default>
+                <label>Daycare</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Health Entity</fullName>
+                <default>false</default>
+                <label>Health Entity</label>
+            </value>
+            <value>
+                <fullName>LawFirm</fullName>
+                <default>false</default>
+                <label>LawFirm</label>
+            </value>
+            <value>
+                <fullName>School</fullName>
+                <default>false</default>
+                <label>School</label>
+            </value>
+            <value>
+                <fullName>Software Company</fullName>
+                <default>false</default>
+                <label>Software Company</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

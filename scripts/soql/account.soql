@@ -6,3 +6,18 @@
 SELECT Id, Name FROM Account order by name
 
 
+SELECT AccountPersonMobilePhone, AccountSuffix, Text, AccountIdentificationNumber, Text, 
+AccountPersonMailingAddress, AccountIdentificationType, AccountPersonHomePhone, 
+AccountPersonEmail, AccountPersonDeathdate, AccountLastName, AccountRecordTypeId, 
+AccountFirstName, AccountId, AccountPersonBirthdate FROM Account order by lastname limit 50
+
+Select Id, name, firstname, lastname, phone, billingstreet, billingcity, billingstate, billingpostalcode, 
+billingcountry, RecordTypeId
+
+FROM Account
+
+
+
+  
+
+

@@ -27,25 +27,12 @@
       "regions" : [ {
         "components" : [ {
           "componentAttributes" : {
-            "richTextValue" : "<p>Create new Account....</p>"
+            "flexcardName" : "VRFNewAccountMain",
+            "objectApiName" : "",
+            "recordId" : ""
           },
-          "componentName" : "forceCommunity:richTextInline",
-          "id" : "c5c31618-ac6d-4e15-9885-41e064419b6d",
-          "renderPriority" : "NEUTRAL",
-          "renditionMap" : { },
-          "type" : "component"
-        }, {
-          "componentAttributes" : {
-            "direction" : "ltr",
-            "display" : "Display OmniScript on page",
-            "inlineVariant" : "brand",
-            "language" : "English",
-            "subType" : "RegisterNewAccount",
-            "theme" : "lightning",
-            "type" : "VRF"
-          },
-          "componentName" : "runtime_omnistudio:omniscript",
-          "id" : "999554d7-96b7-4acf-8442-3cb3c88b5c9d",
+          "componentName" : "runtime_omnistudio:flexcard",
+          "id" : "97f0663e-fb67-47ad-aaee-77312c486611",
           "renderPriority" : "NEUTRAL",
           "renditionMap" : { },
           "type" : "component"

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Victim_Location__c</fullName>
+    <description>Select any location(s) where the victim went at least once between September 11, 2001, and May 30, 2002</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select any location(s) where the victim went at least once between September 11, 2001, and May 30, 2002</inlineHelpText>
+    <label>Location(s) where you were present:</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Victim_Location</valueSetName>
+    </valueSet>
+</CustomField>

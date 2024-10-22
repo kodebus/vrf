@@ -30,6 +30,7 @@
     <networkMemberGroups>
         <profile>Admin</profile>
         <profile>Customer Community User</profile>
+        <profile>Customer Community Login User</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>

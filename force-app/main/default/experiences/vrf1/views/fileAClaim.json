@@ -19,6 +19,34 @@
     "regionName" : "header",
     "type" : "region"
   }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "A Test Condition Section of our Claim Form is going to be implemented below",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "Welcome!",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "101dd29f-db4b-40b0-a780-3e2ce7c148f7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "layout" : "lightning",
+        "params" : "",
+        "standAlone" : false,
+        "target" : "c:VRFConditionsEnglish"
+      },
+      "componentName" : "omnistudio:vlocityLWCOmniWrapper",
+      "id" : "a51fc95f-1189-42f8-b61a-cec93c08bafa",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "99d24a0b-dc27-4ac2-90d0-f0e714d31948",
     "regionName" : "content",
     "type" : "region"

@@ -7,16 +7,7 @@
   "regions" : [ {
     "components" : [ {
       "componentAttributes" : {
-        "richTextValue" : "<table>\n    <tr>\n        <td> If you, or someone you know, might be eligible, you should register with the VRF. \n            <br>Registration preserves your right to file a claim in the future and waives no legal rights. \n    <br>You do not have to be sick to register. </td>\n        <td>\n        \t<img   src = \"{/cms/images/MCLRFXJ4AOERGV3JSDOU6BXMFQJE} \" /> \n            \n        </td>\n        \n    </tr>\n</table>"
-      },
-      "componentName" : "forceCommunity:htmlBlock",
-      "id" : "0bc2e451-3754-475a-b8e3-4f11586b4aa9",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
-      "componentAttributes" : {
-        "richTextValue" : "<p><span style=\"background-color: rgb(255, 255, 255); font-size: 22px;\">If you, or someone you know, might be eligible, you should register with the VRF.&nbsp;</span></p>\n<p><span style=\"background-color: rgb(255, 255, 255); font-size: 22px;\">Registration preserves your right to file a claim in the future and waives no legal rights.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><strong style=\"font-size: 22px;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.New_Claim1.1}\" style=\"width: 152.805px; height: 152.805px;\"></strong></p>\n<p><strong style=\"background-color: rgb(255, 255, 255); font-size: 22px;\">You do not have to be sick to register.</strong></p>"
+        "richTextValue" : "<p style=\"text-align: center;\"><span style=\"background-color: rgb(255, 255, 255); font-size: 22px;\">If you, or someone you know, might be eligible, you should register with the VRF&nbsp;</span></p>\n<p style=\"text-align: center;\"><span style=\"background-color: rgb(255, 255, 255); font-size: 22px;\">Registration preserves your right to file a claim in the future and waives no legal rights</span></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 22px;\">You do not have to be sick to register!</strong><span style=\"font-size: 22px; background-color: rgb(255, 255, 255);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><strong style=\"font-size: 22px;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.New_Claim1.1}\" style=\"width: 178.656px; height: 178.656px;\"></strong></p>\n<p><br></p>\n<p>&nbsp;</p>"
       },
       "componentName" : "forceCommunity:richTextInline",
       "id" : "8ebb4e6a-88f9-4a2e-b2a5-05120ba36eb8",
@@ -25,7 +16,7 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "flexcardName" : "BenefitAssistanceTileDisplay",
+        "flexcardName" : "BenefitAssistanceTileDisplayTwo",
         "objectApiName" : "{!objectApiName}",
         "recordId" : "{!recordId}"
       },

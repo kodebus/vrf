@@ -200,4 +200,8 @@
         <name>vrf</name>
         <type>Network</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>VRF</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

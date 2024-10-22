@@ -1,0 +1,51 @@
+{
+  "appPageId" : "814ca7f7-6562-4a2d-9de6-f81ba9199775",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "dca17d9c-98f9-4029-964c-6adb6b279221",
+  "label" : "Account Creation",
+  "regions" : [ {
+    "id" : "bdedddb2-2e0c-4a59-80fe-c55a07b3d070",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "layout" : "lightning",
+        "params" : "",
+        "standAlone" : false,
+        "target" : "c:VRFCreateNewUserEnglish"
+      },
+      "componentName" : "omnistudio:vlocityLWCOmniWrapper",
+      "id" : "dce0838b-c3aa-48f1-832e-463ec630fe4f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eb8337c0-5bca-47bf-90bf-454ae8e04e4b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "43e30dcd-fe95-492f-9e2b-ebf2a05e1c44",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Account Creation"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "61afb6de-097d-4db0-87f2-b1e1f83478b1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6c77b5ca-2be1-4d76-9ebe-0e4807fa6185",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-account-creation"
+}

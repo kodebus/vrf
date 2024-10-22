@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Claim_Id_Auto__c</fullName>
+    <description>We can use this field as the id for claim.</description>
+    <displayFormat>VRF-{MM}{YY}-{0000}</displayFormat>
+    <externalId>true</externalId>
+    <label>Claim_Id_Auto</label>
+    <trackHistory>false</trackHistory>
+    <type>AutoNumber</type>
+</CustomField>
